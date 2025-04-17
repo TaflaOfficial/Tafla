@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tafla – Mów po angielsku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #0d1b2a;
+        }
+        header {
+            padding: 20px;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .button {
+            background-color: #0d1b2a;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .three-columns {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            min-width: 260px;
+        }
+        .plans table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .plans th, .plans td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        .faq input, .faq button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            max-width: 400px;
+        }
+    
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+            header p {
+                font-size: 16px;
+            }
+            .three-columns {
+                flex-direction: column;
+            }
+            .column {
+                margin-bottom: 20px;
+            }
+            h2 {
+                font-size: 22px;
+            }
+            .plans table, .plans th, .plans td {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Mów po angielsku. Krótko. Często. Skutecznie.</h1>
+    <p>15-minutowe rozmowy 2–3 razy w tygodniu.</p>
+    <p>Bez presji. Bez nudy. Z materiałami, które działają.</p>
+    <button class="button">Chcę spróbować</button>
+</header>
+
+<section>
+    <h2>Jak działa metoda Tafli?</h2>
+    <div class="three-columns">
+        <div class="column">
+            <h3>1. Otrzymujesz materiał</h3>
+            <p>Krótka lista słówek i zwrotów do przygotowania.</p>
+        </div>
+        <div class="column">
+            <h3>2. Dzwonimy do Ciebie</h3>
+            <p>15-minutowa rozmowa oparta na materiale – bez stresu i gramatycznych wykładów.</p>
+        </div>
+        <div class="column">
+            <h3>3. Dostajesz feedback</h3>
+            <p>W ciągu 48h otrzymujesz nagranie i poprawki.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Dla kogo jest Tafla?</h2>
+    <ul>
+        <li>Dla zapracowanych dorosłych</li>
+        <li>Dla tych, którzy nie mają czasu na klasyczne lekcje</li>
+        <li>Dla osób, które chcą mówić, a nie tylko się uczyć</li>
+        <li>Dla introwertyków i ekstrawertyków – metoda dopasowuje się do Ciebie</li>
+    </ul>
+</section>
+
+<section class="plans">
+    <h2>Pakiety subskrypcyjne</h2>
+    <table>
+        <tr>
+            <th>Plan</th>
+            <th>Zawartość</th>
+            <th>Cena</th>
+        </tr>
+        <tr>
+            <td>Tafla Light</td>
+            <td>2 rozmowy tygodniowo + feedback</td>
+            <td>199 zł / miesiąc</td>
+        </tr>
+        <tr>
+            <td>Tafla Regular</td>
+            <td>3 rozmowy tygodniowo + feedback</td>
+            <td>279 zł / miesiąc</td>
+        </tr>
+        <tr>
+            <td>Tafla Plus</td>
+            <td>3 rozmowy + 1 dłuższe spotkanie miesięcznie</td>
+            <td>349 zł / miesiąc</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Opinie naszych uczniów</h2>
+    <p>„Tafla zmieniła moje podejście do języka. Wreszcie coś, co działa!” – Marta, 37 lat</p>
+    <p>„To jak rozmowa z dobrym znajomym, tylko że po angielsku.” – Kuba, 29 lat</p>
+    <p>„W 15 minut uczę się więcej niż na godzinnych lekcjach.” – Patrycja, 44 lata</p>
+</section>
+
+<section class="faq">
+    <h2>Zapisz się na test metody</h2>
+    <input type="text" placeholder="Imię">
+    <input type="email" placeholder="E-mail">
+    <input type="tel" placeholder="Numer telefonu">
+    <button class="button">Zapisz się na test</button>
+</section>
+
+</body>
+</html>
